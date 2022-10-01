@@ -47,7 +47,7 @@ const realizarOperacion = () => {
     numero1 = parseFloat(numero1);
     numero2 = parseFloat(numero2);
     if (numero2 === 0 && operacion === 'dividir') {
-        resultado.value = 'No se puede dividir por 0';
+        resultadoOperacion = 'No se puede dividir por 0';
         return;
     }else{
         resultadoOperacion = operaciones[operacion](numero1, numero2);
