@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Silkscreen", sans-serif;
+  background-color: #06283D;
+  color: #FFFFFF;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.content {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #256D85;
+  border: 2px solid #47B5FF;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 10px #47B5FF;
+          box-shadow: 0 0 10px #47B5FF;
+  padding: 20px;
+}
+
+.title h1 {
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resultado input {
+  width: 80%;
+  height: 50px;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 2px solid #47B5FF;
+  border-radius: 10px;
+  background-color: #DFF6FF;
+  color: #000000;
+  font-weight: bold;
+  -webkit-box-shadow: 0 0 10px #47B5FF;
+          box-shadow: 0 0 10px #47B5FF;
+}
+
+.inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+.inputs input {
+  width: 35%;
+  height: 40px;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 2px solid #47B5FF;
+  border-radius: 10px;
+  background-color: #DFF6FF;
+  color: #000000;
+  font-weight: bold;
+  -webkit-box-shadow: 0 0 10px #47B5FF;
+          box-shadow: 0 0 10px #47B5FF;
+}
+.inputs input:focus {
+  outline: none;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+.buttons button {
+  width: 15%;
+  height: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 2px solid #47B5FF;
+  border-radius: 5px;
+  background-color: #DFF6FF;
+  color: #000000;
+  font-weight: bold;
+  -webkit-box-shadow: 0 0 10px #47B5FF;
+          box-shadow: 0 0 10px #47B5FF;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background-color: #47B5FF;
+  color: #FFFFFF;
+  border: 2px solid #47B5FF;
+  -webkit-box-shadow: 0 0 10px #47B5FF;
+          box-shadow: 0 0 10px #47B5FF;
+}
+.buttons button:active {
+  background-color: #47B5FF;
+  color: #FFFFFF;
+  border: 2px solid #47B5FF;
+  -webkit-box-shadow: 0 0 10px #47B5FF;
+          box-shadow: 0 0 10px #47B5FF;
+}
+.buttons button:focus {
+  background-color: #47B5FF;
+  color: #FFFFFF;
+  border: 2px solid #47B5FF;
+  -webkit-box-shadow: 0 0 10px #47B5FF;
+          box-shadow: 0 0 10px #47B5FF;
+}/*# sourceMappingURL=style.css.map */
