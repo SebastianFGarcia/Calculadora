@@ -1,0 +1,102 @@
+$navy: #06283D
+$white: #FFFFFF
+$black: #000000
+$blue-dark: #256D85
+$blue-light: #DFF6FF
+$blue: #47B5FF
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap')
+    
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    font-family: 'Silkscreen', sans-serif
+    background-color: $navy
+    color: $white
+
+.container
+    max-width: 1200px
+    margin: 100px auto
+    padding: 0 20px
+.content
+    width: 600px
+    margin: 0 auto
+    text-align: center
+    background-color: $blue-dark
+    border: 2px solid $blue
+    border-radius: 20px
+    box-shadow: 0 0 10px $blue
+    padding: 20px
+.title
+    h1
+        font-size: 3.5em
+        text-align: center
+        margin-bottom: 20px
+.resultado
+    input
+        width: 80%
+        height: 50px
+        font-size: 1.5em
+        text-align: center
+        margin-bottom: 20px
+        border: 2px solid $blue
+        border-radius: 10px
+        background-color: $blue-light
+        color: $black
+        font-weight: bold
+        box-shadow: 0 0 10px $blue
+.inputs
+    display: flex
+    justify-content: center
+    gap: 20px
+    input
+        width: 35%
+        height: 40px
+        font-size: 1.2em
+        text-align: center
+        margin-bottom: 20px
+        border: 2px solid $blue
+        border-radius: 10px
+        background-color: $blue-light
+        color: $black
+        font-weight: bold
+        box-shadow: 0 0 10px $blue
+        &:focus
+            outline: none
+.buttons
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    gap: 10px
+    button
+        width: 15%
+        height: 40px
+        text-align: center
+        margin-bottom: 20px
+        border: 2px solid $blue
+        border-radius: 5px
+        background-color: $blue-light
+        color: $black
+        font-weight: bold
+        box-shadow: 0 0 10px $blue
+        cursor: pointer
+        &:hover
+            background-color: $blue
+            color: $white
+            border: 2px solid $blue
+            box-shadow: 0 0 10px $blue
+        &:active
+            background-color: $blue
+            color: $white
+            border: 2px solid $blue
+            box-shadow: 0 0 10px $blue
+        &:focus
+            background-color: $blue
+            color: $white
+            border: 2px solid $blue
+            box-shadow: 0 0 10px $blue
+
+
+// Path: sass\style.sass
