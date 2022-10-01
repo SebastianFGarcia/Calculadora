@@ -14,7 +14,7 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 100px auto 0;
   padding: 0 20px;
 }
 
@@ -79,18 +79,11 @@ body {
 }
 
 .buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
 .buttons button {
-  width: 15%;
   height: 40px;
   text-align: center;
   margin-bottom: 20px;
